@@ -117,32 +117,30 @@ cursor: pointer;}
     font-family: Georgia, 'Times New Roman', Times, serif}
 
 .content p{color: rgb(234, 248, 244);
-line-height: 40px;
-font-size: 2rem;
-margin: 50px;
-padding: 10px;}
+    line-height: 40px;
+    font-size: 1.5rem;
+    margin: 50px;
+    padding: 10px;}
 
 
 /*footer*/
 .footer{display: flex;
     flex-direction: column;
     background-color: rgba(121, 111, 111, 0.786);
-position: relative;}
+    position: relative;}
 
 #h1-footer{display: flex;
     font-size: 20px;
-bottom: 20px;
-position: absolute;}
+    bottom: 20px;
+    position: absolute;}
 
 .footer ul{list-style: none;
     display: flex;
-    font-weight: bold;
-padding: 20px;
-justify-content:end;}
+    padding: 20px;
+    justify-content:end;}
 
 .footer ul li{font-family: century;
-    font-size: 1.1rem;
-    font-weight: bold}
+    font-size: 1.1rem;}
 
 
 .footer ul li a{text-decoration: none;
