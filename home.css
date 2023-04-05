@@ -81,3 +81,74 @@ margin: 20px 0px;}
     color: black;
     box-shadow: 0 0 10px rgb(21, 18, 18)}
 
+/*media*/
+
+/*mobile*/
+
+@media screen and (max-width:768px){
+
+body{ 
+    background-color: rgb(26, 22, 22);
+    background-image: url(Cover\ \(2\).png);
+    background-size: 100% 70%;}
+  
+
+.container {
+   display: flex;
+   flex-direction: column;
+   height: fit-content;
+}
+
+.container h1 {
+    font-size: 30px;
+    color: #898d69;
+    margin: 20px;
+    padding-left: 40px;
+    line-height: 50px;
+}
+
+
+.container p {
+    color: rgb(245, 245, 209);
+    line-height: 20px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+/*footer*/
+footer {
+    margin: 40px;
+    margin-top: 1%;
+    display: flex;
+    padding-left: 0;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+}
+
+
+.footer ul li {
+    margin: 10px;
+    
+}
+
+.footer ul li a {
+    background-color: rgb(102, 99, 82);
+    padding: 4px 18px;
+    transition: all .5s ease;
+}
+
+.footer ul li a:hover {
+    background-color: rgb(201, 182, 182);
+    color: black;
+    box-shadow: 0 0 10px rgb(21, 18, 18)
+
+}
+}
