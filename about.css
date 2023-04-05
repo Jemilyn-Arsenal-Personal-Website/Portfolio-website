@@ -185,3 +185,17 @@ cursor: pointer;}
    }
 
 }
+
+@media screen and (min-width:768px){
+.gallery {
+    display: flex;
+    min-width: auto;
+}
+
+.gallery img {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;}
+}
+
