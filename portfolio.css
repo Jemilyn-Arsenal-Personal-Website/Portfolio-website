@@ -42,7 +42,8 @@
 
 .main {display: flex;
     flex-direction: column;
-    background-color: rgba(20, 17, 17, 0.786);}
+    background-color: rgba(20, 17, 17, 0.786);
+overflow: hidden;}
 
 h1{color: rgb(188, 178, 104);
     text-align: center;
@@ -50,8 +51,8 @@ h1{color: rgb(188, 178, 104);
     font-size: 2.5rem;
     margin-top: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-background-color: rgba(77, 77, 71, 0.831);
-margin-bottom: 20px;}
+    background-color: rgba(77, 77, 71, 0.831);
+    margin-bottom: 20px;}
 
 #gallery{display: flex;justify-content: center;}
 
@@ -59,9 +60,9 @@ margin-bottom: 20px;}
     height: 450px;
     padding: 10px;
     margin: 10px;
-border-radius: 10%;
-border-color: rgb(127, 107, 81);
-border-style: double;}
+    border-radius: 10%;
+    border-color: rgb(127, 107, 81);
+    border-style: double;}
 
 #gallery img:hover{background-color: rgb(124, 129, 113);
     cursor: pointer;}
@@ -83,6 +84,56 @@ h2{ color: rgb(134, 127, 87);
         
     }
 
+/*footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(121, 111, 111, 0.786);
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    justify-content: end;
+}
+
+.footer ul li {
+    font-family: century;
+    font-size: 1.1rem;
+}
 
 
+.footer ul li a {
+    text-decoration: none;
+    color: rgba(39, 36, 36, 0.804);
+    padding: 8px 25px;
+    transition: all .5s ease;}
 
+/*media*/
+
+/*for mobile phones only*/
+@media screen and (max-width: 768px){
+.main {width: 100%;
+background-color: rgb(52, 52, 49);}
+
+#gallery img{
+        display: flex;
+        justify-content: center;
+    }
+
+    #gallery img {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10%;
+        border-color: rgb(127, 107, 81);
+        border-style: double;
+    }
+
+    #gallery img:hover {
+        background-color: rgb(124, 129, 113);
+        cursor: pointer;
+    }
+}

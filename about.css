@@ -69,7 +69,8 @@ color: rgb(34, 31, 29);
 box-shadow: 0 0 10px rgb(21,18,18)}
 
 /*gallery*/
-.gallery{ display: flex; }
+.gallery{ display: flex;
+min-width: auto; }
 
 .gallery img{width: 450px;
 height: 640px;
@@ -147,6 +148,4 @@ cursor: pointer;}
     color: rgb(63, 48, 48);
     padding: 8px 25px;
     transition: all .5s ease;
-
 }
-
