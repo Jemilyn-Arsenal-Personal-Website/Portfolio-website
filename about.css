@@ -149,3 +149,39 @@ cursor: pointer;}
     padding: 8px 25px;
     transition: all .5s ease;
 }
+
+/*media*/
+
+/*mobile*/
+@media screen and (max-width:768px) { 
+
+/*nav for content*/
+.nav-about ul li {
+        font-family: century;
+        font-size: 8px;
+        font-weight: bold;
+    }
+
+
+/*home*/
+
+.gallery {
+            display: flex;
+            min-width: auto;
+        }
+    
+.gallery img {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            margin: 10px;
+        }
+/*footer*/
+ #h1-footer {
+       display: flex;
+       font-size: 10px;
+       bottom: 0px;
+       position: absolute;
+   }
+
+}
