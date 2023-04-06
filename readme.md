@@ -1,1 +1,2 @@
-Hello
+Welcome to my personal website! Here you will find information about me, my interests, and my professional experience. I believe in the power of technology to transform people's lives, and I am passionate about using my skills to create positive change in the world.
+Thank you for visiting my website, and feel free to contact me if you have any questions or would like to collaborate on a project.
